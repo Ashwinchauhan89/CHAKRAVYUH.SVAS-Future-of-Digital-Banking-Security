@@ -1,0 +1,10 @@
+torch_geometric
+fastapi
+uvicorn
+shap
+pandas
+numpy
+scikit-learn
+torch 
+torchvision 
+torchaudio
