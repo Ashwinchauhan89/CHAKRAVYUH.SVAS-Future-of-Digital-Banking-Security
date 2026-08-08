@@ -4,5 +4,21 @@ Lib
 
 pyvenv.cfg
 
-paysimdatasets.csv
-Paysim_Project
+
+# Datasets
+*.csv
+*.xlsx
+*.json
+*.parquet
+
+# Python
+venv/
+.venv/
+__pycache__/
+
+# ML models
+*.pt
+*.pth
+
+# Environment
+.env
