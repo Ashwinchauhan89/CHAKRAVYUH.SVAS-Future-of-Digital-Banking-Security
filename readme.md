@@ -1,8 +1,7 @@
-# 🛡️ CHAKRAVYUH SVAS
 
 <div align="center">
 
-# CHAKRAVYUH SVAS
+# CHAKRAVYUH SVAS - Future of Digital Banking Security
 ### **AI-Powered, Privacy-Preserving & Quantum-Resilient Digital Banking Security**
 
 <p>
@@ -38,36 +37,35 @@
 
 ## 📌 Table of Contents
 
-<div align="center">
 
-* [Overview](#-overview)
-* [Why CHAKRAVYUH SVAS?](#-why-chakravyuh-svas)
-* [Problem Statement](#-problem-statement)
-* [Our Solution](#-our-solution)
-* [Key Features](#-key-features)
-* [System Architecture](#-system-architecture)
-* [AI/ML Pipeline](#-aiml-pipeline)
-* [Federated Learning](#-federated-learning)
-* [Graph Intelligence](#-graph-intelligence)
-* [Risk Engine](#-risk-engine)
-* [Response Agent](#-response-agent)
-* [Security Architecture](#-security-architecture)
-* [Post-Quantum Cryptography](#-post-quantum-cryptography)
-* [Zero-Knowledge Authentication](#-zero-knowledge-authentication)
-* [Technology Stack](#-technology-stack)
-* [Project Structure](#-project-structure)
-* [Dataset](#-dataset)
-* [Installation](#-installation)
-* [Configuration](#-configuration)
-* [Running the Project](#-running-the-project)
-* [API](#-api)
-* [Development Roadmap](#-development-roadmap)
-* [Security](#-security)
-* [Contributing](#-contributing)
-* [Future Scope](#-future-scope)
-* [License](#-license)
-
-<div>
+| # | Section |
+|---:|---|
+| 1 | [🚀 Overview](#-overview) |
+| 2 | [💡 Why CHAKRAVYUH SVAS?](#-why-chakravyuh-svas) |
+| 3 | [🎯 Problem Statement](#-problem-statement) |
+| 4 | [💎 Our Solution](#-our-solution) |
+| 5 | [✨ Key Features](#-key-features) |
+| 6 | [🏗️ System Architecture](#-system-architecture) |
+| 7 | [🧠 AI/ML Pipeline](#-aiml-pipeline) |
+| 8 | [🌐 Federated Learning](#-federated-learning) |
+| 9 | [🕸️ Graph Intelligence](#-graph-intelligence) |
+| 10 | [⚡ Risk Engine](#-risk-engine) |
+| 11 | [🤖 Response Agent](#-response-agent) |
+| 12 | [🔐 Security Architecture](#-security-architecture) |
+| 13 | [🔮 Post-Quantum Cryptography](#-post-quantum-cryptography) |
+| 14 | [🧩 Zero-Knowledge Authentication](#-zero-knowledge-authentication) |
+| 15 | [🛠️ Technology Stack](#-technology-stack) |
+| 16 | [📁 Project Structure](#-project-structure) |
+| 17 | [📊 Dataset](#-dataset) |
+| 18 | [⚙️ Installation](#-installation) |
+| 19 | [🔧 Configuration](#-configuration) |
+| 20 | [▶️ Running the Project](#-running-the-project) |
+| 21 | [🔌 API](#-api) |
+| 22 | [🧪 Development Roadmap](#-development-roadmap) |
+| 23 | [🛡️ Security](#-security) |
+| 24 | [🤝 Contributing](#-contributing) |
+| 25 | [🚀 Future Scope](#-future-scope) |
+| 26 | [📜 License](#-license) |
 ---
 
 # 🚀 Overview
