@@ -15,7 +15,7 @@ DATA_ROOT = os.path.join(CS_ROOT, "Paysim_Project")
 REPORTS_DIR = os.path.join(AI_MESH_DIR, "reports")
 MODEL_DIR = os.path.join(CS_ROOT, "models")
 
-def explain_fraud_prediction(bank_id="A"):
+def explain_fraud_prediction(bank_id="C"):
     # (Data Loading Logic remains error-free as per your original code)
     bank_folder = f"BANK_{bank_id.upper()}"
     bank_file = f"bank_{bank_id.lower()}_data.csv"
@@ -108,4 +108,4 @@ def explain_fraud_prediction(bank_id="A"):
     print(f"💎 Mind-Blowing Report Exported: {output_file}")
 
 if __name__ == "__main__":
-    explain_fraud_prediction("A")
+    explain_fraud_prediction("C")
