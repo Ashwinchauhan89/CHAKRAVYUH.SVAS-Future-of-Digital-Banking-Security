@@ -38,6 +38,8 @@
 
 ## 📌 Table of Contents
 
+<div align="center">
+
 * [Overview](#-overview)
 * [Why CHAKRAVYUH SVAS?](#-why-chakravyuh-svas)
 * [Problem Statement](#-problem-statement)
@@ -65,6 +67,7 @@
 * [Future Scope](#-future-scope)
 * [License](#-license)
 
+<div>
 ---
 
 # 🚀 Overview
