@@ -1225,15 +1225,7 @@ See the `LICENSE` file for details.
 
 ---
 
-# ⭐ Support the Project
 
-If you find this project useful or interesting:
-
-⭐ Star the repository
-🍴 Fork the project
-🐛 Report issues
-💡 Suggest improvements
-🤝 Contribute to development
 
 ---
 
