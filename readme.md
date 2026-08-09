@@ -88,11 +88,49 @@ Modern digital banking systems face increasingly sophisticated threats:
 - Rapid transaction velocity
 - Coordinated fraud networks
 
-Traditional systems often depend heavily on:
 
-```text
-Static Rules
-     +
-Centralized Data
-     +
-Known Fraud Signatures
+CHAKRAVYUH.SVAS FUTURE OF DIGITAL BANKING SECURITY/
+│
+├── ai_mesh/
+│   ├── bank_client.py
+│   ├── federate_server.py
+│   ├── gnn_model.py
+│   ├── graph_builder.py
+│   ├── train_local.py
+│   └── ...
+│
+├── Backend/
+│   └── app.py          ← FastAPI application
+│
+├── Client/
+│
+├── EDA/
+│
+├── models/
+│   └── global_super_brain.pth
+│
+├── PaySim_Project/
+│   ├── BANK_A/
+│   │   └── bank_a_data.csv
+│   ├── BANK_B/
+│   │   └── bank_b_data.csv
+│   ├── BANK_C/
+│   │   └── bank_c_data.csv
+│   ├── main.py
+│   ├── paysim_dataset.csv
+│   ├── requirements.txt
+│   └── split_data.py
+│
+├── response_agent/
+│   ├── defense_tools.py
+│   ├── soldier_agent.py
+│   └── xai_engine.py
+│
+├── security/
+│   ├── pqc_mesh.py
+│   ├── shield_test.py
+│   └── zkp_auth.py
+│
+├── .gitignore
+├── architecture.md
+└── readme.md
