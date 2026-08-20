@@ -2,7 +2,7 @@
 import os
 import sys
 
-# स्पेशलिस्ट टिप: यह सुनिश्चित करना कि पायथन अपनी फाइलों को पहचान ले
+
 sys.path.append(os.path.dirname(os.path.abspath(__file__)))
 
 from zkp_auth import get_bank_proof, verify_bank_identity

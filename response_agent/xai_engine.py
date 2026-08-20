@@ -38,10 +38,10 @@ def predict_wrapper(x_samples, t_idx, graph_data, gnn_model):
     return np.array(results)
 
 def generate_agent_evidence(transaction_id=None, bank_id="A"):
-    """सिपाही के लिए सबूत वाली फोटो खींचने वाली मशीन (SHAP Explainer)"""
+    """(SHAP Explainer)"""
     
     if not os.path.exists(GLOBAL_MODEL_PATH):
-        print(f"❌ Error: '{GLOBAL_MODEL_PATH}' नहीं मिला!")
+        print(f"❌ Error: '{GLOBAL_MODEL_PATH}' Not found!")
         return None
 
     # 1. Load Data & Model
@@ -86,7 +86,7 @@ def generate_agent_evidence(transaction_id=None, bank_id="A"):
     plt.savefig(output_file, bbox_inches='tight')
     plt.close()
     
-    print(f"🕵️ सिपाही ने सबूत की फोटो खींच ली है: {output_file}")
+    print(f"Soilder Trap Attacker {output_file}")
     return output_file
 
 if __name__ == "__main__":

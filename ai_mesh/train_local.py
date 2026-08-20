@@ -4,9 +4,9 @@ from gnn_model import CyberSAGE
 from graph_builder import build_bank_graph
 
 def train_one_bank(bank_id):
-    # 1. जाला Building as trap...
+  
     data = build_bank_graph(f"data/bank_{bank_id}/data.csv")
-    # 2. Wakeup the (Model)
+
     model = CyberSAGE(in_channels=3, hidden_channels=16, out_channels=2)
     optimizer = torch.optim.Adam(model.parameters(), lr=0.01)
     

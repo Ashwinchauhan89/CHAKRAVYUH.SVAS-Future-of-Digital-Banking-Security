@@ -8,7 +8,7 @@ CS_ROOT = os.path.dirname(CURRENT_DIR) # यह cs फोल्डर है
 # 2. Knowing the exact location of CSV file
 csv_path = os.path.join(CS_ROOT, "Paysim_Project", "BANK_A", "bank_a_data.csv")
 
-print(f"📂 फाइल यहाँ ढूँढी जा रही है: {csv_path}")
+print(f"📂 Folder: {csv_path}")
 
 try:
     # 3. Creating a graph...

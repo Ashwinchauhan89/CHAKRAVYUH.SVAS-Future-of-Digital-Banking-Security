@@ -50,12 +50,12 @@ class BankAgent(fl.client.NumPyClient):
         new_params = self.get_parameters(config={})
         noisy_params = [p + np.random.normal(0, 0.001, p.shape) for p in new_params]
         
-        print(f"✅ बैंक {self.bank_id}: Update are sharing to the server")
+        print(f"✅ Bank {self.bank_id}: Update are sharing to the server")
         return noisy_params, len(self.data.x), {}
 
 if __name__ == "__main__":
     if len(sys.argv) < 2:
-        print("चलाने का तरीका: python bank_client.py a")
+        print("python bank_client.py a")
         sys.exit(1)
 
     bid = sys.argv[1] 

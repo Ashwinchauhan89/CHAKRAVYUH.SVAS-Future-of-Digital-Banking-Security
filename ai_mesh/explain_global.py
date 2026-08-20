@@ -85,12 +85,12 @@ def generate_winning_evidence():
     ax_main.set_title("GLOBAL SUPER-BRAIN: CROSS-NODE NEURAL EVIDENCE", loc='left', fontsize=20, fontweight='black', pad=25, color='#1A1A1A')
     ax_main.axvline(0, color='black', linewidth=1.5, alpha=0.7)
     
-    # बार पर वैल्यूज दिखाएं
+  
     for bar in bars:
         width = bar.get_width()
         ax_main.text(width, bar.get_y() + bar.get_height()/2, f' {width:.4f}', va='center', fontweight='bold', color='#2C3E50')
 
-    # 2. Risk Meter (Visual Impact for Judges)
+   
     ax_meter = fig.add_subplot(gs[0, 1])
     ax_meter.set_axis_off()
     risk_score = np.abs(final_shap_values[0]).sum() * 100 
@@ -100,7 +100,7 @@ def generate_winning_evidence():
     ax_meter.text(0.5, 0.45, f"{min(99.9, risk_score):.1f}%", ha='center', fontsize=34, color='#E74C3C', fontweight='black')
     ax_meter.text(0.5, 0.3, "GLOBAL ANOMALY", ha='center', fontsize=10, color='#E74C3C', fontweight='bold', bbox=dict(facecolor='none', edgecolor='#E74C3C', boxstyle='round,pad=0.5'))
 
-    # 3. Global Context Box
+
     ax_desc = fig.add_subplot(gs[1, :])
     ax_desc.set_axis_off()
     desc_text = (
@@ -111,7 +111,7 @@ def generate_winning_evidence():
     ax_desc.text(0.01, 0.5, desc_text, fontsize=12, family='monospace', color='#34495E', linespacing=1.6,
                  bbox=dict(facecolor='#ECF0F1', edgecolor='none', boxstyle='round,pad=1.5'))
 
-    # 4. Saving the report...
+  
     plt.tight_layout()
     if not os.path.exists(REPORTS_DIR): os.makedirs(REPORTS_DIR)
     output_file = os.path.join(REPORTS_DIR, "Evidence_Global_SuperBrain.png")

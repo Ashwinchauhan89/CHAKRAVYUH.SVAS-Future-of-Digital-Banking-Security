@@ -42,4 +42,4 @@ def build_bank_graph(csv_path):
     y[fraud_source_ids] = 1
 
     return Data(x=x, edge_index=edge_index, y=y)
-print("जाला तैयार है!")
+print("Trap is Ready")

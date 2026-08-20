@@ -23,4 +23,6 @@ def read_bank(bank_id: str):
         data = get_bank_data(bank_id)
         # Sirf pehle 5 records dikhayenge test ke liye
         return data.head().to_dict(orient="records")
-    return {"error": "Bank not found    !"}
+    return {"error": "Bank not found !"}
+
+

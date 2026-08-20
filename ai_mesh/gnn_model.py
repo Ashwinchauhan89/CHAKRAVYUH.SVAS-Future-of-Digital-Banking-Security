@@ -7,7 +7,7 @@ class CyberSAGE(torch.nn.Module):
         super(CyberSAGE, self).__init__()
         # layer 1: talk to nabour...
         self.conv1 = SAGEConv(in_channels, hidden_channels)
-        # लेयर 2: आखिरी फैसला लेना
+    
         self.conv2 = SAGEConv(hidden_channels, out_channels)
 
     def forward(self, x, edge_index):
@@ -20,4 +20,6 @@ class CyberSAGE(torch.nn.Module):
         x = self.conv2(x, edge_index)
         return F.log_softmax(x, dim=1)
     
-    print("जाला तैयार है!")
+    print("Graph Constructed")
+
+    
