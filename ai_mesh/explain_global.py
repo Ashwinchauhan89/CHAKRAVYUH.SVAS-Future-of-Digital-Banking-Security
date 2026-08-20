@@ -121,7 +121,7 @@ def generate_winning_evidence():
     plt.close()
     
     print("-" * 30)
-    print(f"✅ Mission Completed! data are in correct shap")
+    print(f"Mission Completed! data are in correct shap")
     print(f"Success! Aviedense are hear: {output_file}")
     print("-" * 30)
 

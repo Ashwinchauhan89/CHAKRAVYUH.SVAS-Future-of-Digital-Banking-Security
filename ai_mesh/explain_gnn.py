@@ -105,7 +105,7 @@ def explain_fraud_prediction(bank_id="C"):
     plt.savefig(output_file, bbox_inches='tight', dpi=300)
     plt.close()
     
-    print(f"💎 Mind-Blowing Report Exported: {output_file}")
+    print(f" Mind-Blowing Report Exported: {output_file}")
 
 if __name__ == "__main__":
     explain_fraud_prediction("C")

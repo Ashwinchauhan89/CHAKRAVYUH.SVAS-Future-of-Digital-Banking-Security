@@ -13,7 +13,7 @@ class CyberSAGE(torch.nn.Module):
     def forward(self, x, edge_index):
         # 1. listning the nabour...
         x = self.conv1(x, edge_index)
-        x = F.relu(x) # खुशी का फिल्टर
+        x = F.relu(x) 
         x = F.dropout(x, p=0.5, training=self.training) # कुछ भूलने की शक्ति
         
         # 2. File decision (Fraud or Safe?)
@@ -22,4 +22,3 @@ class CyberSAGE(torch.nn.Module):
     
     print("Graph Constructed")
 
-    

@@ -29,7 +29,7 @@ def start_khufiya_meeting():
     # Mission Accomplished 'Super Brain' saved in diary...
     final_model = CyberSAGE(in_channels=3, hidden_channels=16, out_channels=2)
     torch.save(final_model.state_dict(), os.path.join(model_dir, "global_super_brain.pth"))
-    print(f"✅ Mission completed! The Super-Brain are safe  : models/global_super_brain.pth")
+    print(f" Mission completed! The Super-Brain are safe  : models/global_super_brain.pth")
 
 if __name__ == "__main__":
     start_khufiya_meeting()
